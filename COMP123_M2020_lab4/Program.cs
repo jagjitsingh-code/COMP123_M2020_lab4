@@ -10,6 +10,9 @@ namespace COMP123_M2020_lab4
     {
         static void Main(string[] args)
         {
+            person jagjit = new person(name: "jagjit", age: 22);
+            jagjit.SaysHello();
+            Console.ReadLine();
         }
     }
 }
